@@ -47,38 +47,38 @@ function validate(formData, jqForm, options) {
 	
 	if ((!nameValue[0]) || (nameValue == 'Name')) {
 		$(".error1").fadeIn("slow");
-		$("#name").css('width' , '372px');
+		$("#name").css('width' , '252px');
 		correct = false;
 	}
 	else {
 		$(".error1").fadeOut("slow");
-		$("#name").css('width' , '490px');
+		$("#name").css('width' , '369px');
 	}
 	
 	if (!emailValue[0]) {
 		//$("p.error.wrong_email").slideDown({ opacity: "show" }, "slow");
 		$(".error2").fadeIn("slow");
-		$("#email").css('width' , '372px');
+		$("#email").css('width' , '252px');
 		correct = false;
 	} else if(!emailReg.test(emailValue[0])) {
 		//$("p.error.wrong_email").slideDown({ opacity: "show" }, "slow");
 		$(".error2").fadeIn("slow");
-		$("#email").css('width' , '372px');
+		$("#email").css('width' , '252px');
 		correct = false;
 	}
 	else {
 		$(".error2").fadeOut("slow");
-		$("#email").css('width' , '490px');
+		$("#email").css('width' , '369px');
 	}
 	
 	if ((!subjectValue[0]) || (subjectValue[0] == 'Subject')) {
 		$(".error4").fadeIn("slow");
-		$("#subject").css('width' , '372px');
+		$("#subject").css('width' , '252px');
 		correct = false;
 	}
 	else {
 		$(".error4").fadeOut("slow");
-		$("#subject").css('width' , '490px');
+		$("#subject").css('width' , '369px');
 	}
 	
 	if (!messageValue[0]) {
