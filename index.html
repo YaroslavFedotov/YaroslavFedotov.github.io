@@ -1,131 +1,199 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-<title>Resume</title>
+    <title>Responsive Resume/CV Template for Developers</title>    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="fav.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
 
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="Fedotov Yaroslav"/>
-<meta charset="UTF-8"> 
-
-<link type="text/css" rel="stylesheet" href="style.css">
-<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
-
-</head>
-<body id="top">
-<div id="cv" class="instaFade">
-	<div class="mainDetails">
-		<div id="headshot" class="quickFade">
-			<img src="headshot.jpg" alt="Alan Smith" />
-		</div>
-		
-		<div id="name">
-			<h1 class="quickFade delayTwo">Федотов Ярослав</h1>
-			<h2 class="quickFade delayThree">back-end developer</h2>
-		</div>
-		
-		<div id="contactDetails" class="quickFade delayFour">
-			<ul>
-				<li><a href="https://e.mail.ru/login">    Whattak.Official@gmail.com</a></li>
-				<li><a href="https://vk.com/id314775611">    https://vk.com/id314775611</a></li>
-				<li>+79266964166</li>
-				<li style="color:#ededed;">...</li>
-
-				<a href="YroslavF.V.Resume.pdf" download=""><button>Скачать pdf</button></a>
-			
-			</ul>
-		</div>
-		<div class="clear"></div>
-	</div>
-	
-	<div id="mainArea" class="quickFade delayFive">
-		<section>
-			<article>
-				<div class="sectionTitle">
-					<h1>Обо мне</h1>
-				</div>
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h1 class="name">Бирюков Андрей</h1>
+                <h3 class="tagline">	Администратор</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: andreyka.biryukov.00@inbox.ru">andreyka.biryukov.00@inbox.ru</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:+7 (977) 3975358">+7 (977) 3975358</a></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">https://instagram.com/andrey_biryukov2020_?utm_medium=copy_link</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Образование</h2>
+                <div class="item">
+                    <h4 class="degree">Обеспечение информационной безопасности телекоммуникационных систем</h4>
+                    <h5 class="meta">Колледж космического машиностроения и технологий, г. Королёв</h5>
+                    <div class="time">2017 - 2021</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Интересы</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Кулинари</li>
+                    <li>Зантие спортом </li>
+                    <li>Общение с новыми людьми </li>
+					<li>Активные развлечени  </li>
+					<li>Интерес к новым знаним   </li>
+                </ul>
+            </div><!--//interests-->
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Желаемая должность</h2>
+                <div class="summary">
+                    <p>Помощник руководителя</p>
+					<p>Специализации: Секретарь, помощник руководителя, ассистент</p>
+					<p>Занятость: проектная работа, частичная занятость, полная занятость</p>
+					<p>График работы: полный день</p> 
+					<p>Желательное время в пути до работы: не имеет значения</p> 
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Опыт работы</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Помощник патентного поверенного</h3>
+                            <div class="time">Ноябрь 2021 — настоящее время</div>
+                        </div><!--//upper-row-->
+                        <div class="company">ООО "Лев Клименко"</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Звонки входящие/исходящие, назначение встреч с клиентами, ведение CRM-системы (AMOCRM), подготовка и отправка документов, консультации клиентов по базовым вопросам (ст. 1483-1515 ГК РФ), подготовка скриптов для общения с клиентами, офис-менеджмент.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
 				
-				<div class="sectionContent">
-					<p>Занимаюсь программированием со старшей школы. Добросовестно отношусь к выполнению задач и всегда укладываюсь в сроки. Быстро и самостоятельно обучаюсь, всегда готов попробовать себя в чем-то новом. Не конфликтен и хорошо вливаюсь в любой коллектив. В свободное время занимаюсь разработкой игр: <a href="https://play.google.com/store/apps/dev?id=9043267519391443305"> GooglePlay</a>. <a href="https://github.com/YaroslavFedotov">GitHub</a>.</p>
-				</div>
-			</article>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Опыт работы</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<p>Занимался фрилансом и репетиторством. Официально в IT ещё не работал</p>
-				</article>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Администратор</h3>
+                            <div class="time">Май 2021 — настоящее время</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Бранч-кафе "Райдора"</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Общение с клиентами, администрирование работы с курьерскими службами, кассовое обслуживание, контроль качестве выполнения работы персонала, ведение финансового учёта. </p>  
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
 				
-				<article>
-					<p class="subDetails">Из не валидного: работал в McDonald’s, разнорабочим на заводе и на стройке</p>
-				</article>
-				
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Навыки</h1>
-			</div>
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Официант</h3>
+                            <div class="time">сентябрь 2018 - май 2021</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Tanuki</div>
+                    </div><!--//meta-->
+                </div><!--//item-->
+                
+            </section><!--//section-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Навыки и качества</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Высока комуникабельность</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="75%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Подчеркнута вежливость</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Обучаемость</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Отсутсиве страха перед новыми задачами </h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="100%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Желание работать </h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="100%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Энергичность</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
 			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>-Трудолюбие</li>
-					<li>-Стрессоустойчивость</li>
-					<li>-Самостоятельность</li>
-					<li>-Исполнительность</li>
-					<li>-Ответственность</li>
-					<li>-Пунктуальность</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Технологии</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<ul class="keySkills">
-					<li>Java</li>
-					<li>Spring</li>
-					<li>Apache Maven</li>
-					<li>SQL</li>
-					<li>C#</li>
-					<li>Git</li>
-					<li>Python</li>
-					<li>Visual Basic</li>
-					<li>Microsoft office</li>
-				</ul>
-			</div>
-			<div class="clear"></div>
-		</section>
-		
-		<section>
-			<div class="sectionTitle">
-				<h1>Образование</h1>
-			</div>
-			
-			<div class="sectionContent">
-				<article>
-					<h2>ТВГТУ</h2>
-					<p>Высшее (очное) Тверской государственный технический университет (2018-2022 гг.)</p>
-					<p class="subDetails">Программная инженерия</p>
-				</article>
-				
-			</div>
-			<div class="clear"></div>
-		</section>
-	</div>
-</div>
+			<section class="section summary-section">
+                <h2></i>О себе</h2>
+                <div class="summary">
+                    <p>Энергичный молодой человек, не обременённый ограничивающими обязательствами. Стараюсь уходить в сторону интеллектуального труда, т.к. чувствую тягу и способности к этому. От призыва имею отсрочку из-за астмы (лёгкая степень, не мешает работе). Проживаю в близости от транспортного узла, как следствие имею достаточную мобильность. Исполнительный, имею полное, осознанное понимание своего текущего положения в рынке труда, стремлюсь получить как-можно больше опыта и полезных навыков. Имеется небольшой, но положительный опыт управления подчинёнными. Практика показывает, что хорошо умею находить общий язык с клиентами и представителями всех звеньев иерархии в компании. Так же имею положительные рекомендации от руководителей, с которыми взаимодействовал ранее.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Буду рад <i class="fa fa-heart"></i> Работать с вами</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html>
+</html> 
+
