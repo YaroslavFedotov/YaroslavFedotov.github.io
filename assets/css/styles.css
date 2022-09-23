@@ -29,6 +29,20 @@ a:hover {
 a:focus {
   text-decoration: none;
 }
+a.knopka {
+	color: #fff; 
+	text-decoration: none; 
+	user-select: none; 
+	position: relative;
+	right: 20px;					
+	opacity: .3
+	background: rgb(52,148,121); 
+	padding: .7em 1.5em; 
+	outline: none;
+	border-radius: 7px;
+} 
+a.knopka:hover { background: rgb(150,200,175); } 
+a.knopka:active { background: rgb(150,200,175); } 
 p {
   line-height: 1.5;
 }
